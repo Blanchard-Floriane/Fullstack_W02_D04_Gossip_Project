@@ -1,6 +1,8 @@
 require 'faker' 
 
 User.destroy_all
+City.destroy_all
+Gossip.destroy_all
 
 10.times do |index|
   User.create!(
